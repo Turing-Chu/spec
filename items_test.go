@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/swag"
 	"github.com/stretchr/testify/assert"
 )
 

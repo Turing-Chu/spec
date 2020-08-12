@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/go-openapi/jsonpointer"
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/jsonpointer"
+	"github.com/Turing-Chu/swag"
 )
 
 // Extensions vendor specific extensions

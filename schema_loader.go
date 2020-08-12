@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/swag"
 )
 
 // PathLoader function to use when loading remote refs

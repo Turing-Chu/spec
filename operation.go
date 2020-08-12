@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/go-openapi/jsonpointer"
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/jsonpointer"
+	"github.com/Turing-Chu/swag"
 )
 
 func init() {

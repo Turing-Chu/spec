@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/spec"
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/spec"
+	"github.com/Turing-Chu/swag"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
-// mimics what the go-openapi/load does
+// mimics what the Turing-Chu/load does
 var (
 	rex        = regexp.MustCompile(`"\$ref":\s*"(.+)"`)
 	testLoader func(string) (json.RawMessage, error)

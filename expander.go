@@ -219,7 +219,7 @@ func baseForRoot(root interface{}, cache ResolutionCache) string {
 }
 
 // ExpandSchema expands the refs in the schema object with reference to the root object
-// go-openapi/validate uses this function
+// Turing-Chu/validate uses this function
 // notice that it is impossible to reference a json schema in a different file other than root
 func ExpandSchema(schema *Schema, root interface{}, cache ResolutionCache) error {
 	opts := &ExpandOptions{

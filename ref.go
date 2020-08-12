@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-openapi/jsonreference"
+	"github.com/Turing-Chu/jsonreference"
 )
 
 // Refable is a struct for things that accept a $ref property

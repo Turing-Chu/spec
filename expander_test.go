@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/jsonpointer"
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/jsonpointer"
+	"github.com/Turing-Chu/swag"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -547,7 +547,7 @@ func TestCircularSpec2Expansion(t *testing.T) {
 }
 
 func Test_MoreCircular(t *testing.T) {
-	// Additional testcase for circular $ref (from go-openapi/validate):
+	// Additional testcase for circular $ref (from Turing-Chu/validate):
 	// - $ref with file = current file
 	// - circular is located in remote file
 	//
@@ -1750,7 +1750,7 @@ func TestExpandExtraItems(t *testing.T) {
 }
 
 func TestResolveExtraItem(t *testing.T) {
-	// go-openapi extra goodie: $ref in simple schema Items and Headers
+	// Turing-Chu extra goodie: $ref in simple schema Items and Headers
 	spec := new(Swagger)
 	specDoc, err := jsonDoc(extraRefFixture)
 	assert.NoError(t, err)

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/swag"
 )
 
 // Paths holds the relative paths to the individual endpoints.

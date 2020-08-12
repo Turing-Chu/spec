@@ -17,7 +17,7 @@ package spec
 import (
 	"encoding/json"
 
-	"github.com/go-openapi/swag"
+	"github.com/Turing-Chu/swag"
 )
 
 // ContactInfo contact information for the exposed API.
