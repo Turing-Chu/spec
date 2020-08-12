@@ -22,7 +22,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/Turing-Chu/jsonpointer"
+	"github.com/go-openapi/jsonpointer"
 )
 
   // Some currently unused functions and definitions that

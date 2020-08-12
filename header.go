@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/Turing-Chu/jsonpointer"
+	"github.com/go-openapi/jsonpointer"
 	"github.com/Turing-Chu/swag"
 )
 
